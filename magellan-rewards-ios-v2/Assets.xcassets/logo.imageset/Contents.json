@@ -2,9 +2,7 @@
   "images" : [
     {
       "filename" : "apple-touch-icon 1.png",
-      "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
+      "idiom" : "universal"
     }
   ],
   "info" : {

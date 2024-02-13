@@ -2,6 +2,8 @@ import UIKit
 import Turbo
 import WebKit
 
+let image = UIImage(named: "logo")
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     private lazy var navigationController = UINavigationController()
