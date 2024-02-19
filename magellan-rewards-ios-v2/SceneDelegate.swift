@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window?.rootViewController = UIViewController()
         self.window?.makeKeyAndVisible()
         window!.rootViewController = navigationController
-        visit(url: URL(string: "https://magellan-rewards-staging-v2-9e277a4e25e4.herokuapp.com")!)
+        visit(url: URL(string: "https://magellan-rewards-prod-f622a3082220.herokuapp.com")!)
     }
     
     private func visit(url: URL) {
