@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "patterns": [
+        "/users/sign_in$",
+        "/users/sign_up$"
+      ],
+      "properties": {
+        "presentation": "modal"
+      }
+    },
+  ]
+}

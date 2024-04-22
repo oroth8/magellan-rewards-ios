@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB46DDF12BD5A99700DA6BD6 /* PathConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AB46DDF02BD5A99700DA6BD6 /* PathConfiguration.json */; };
 		ABCC85272B7B2B7A00C0D1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC85262B7B2B7A00C0D1E5 /* AppDelegate.swift */; };
 		ABCC85292B7B2B7A00C0D1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC85282B7B2B7A00C0D1E5 /* SceneDelegate.swift */; };
 		ABCC852B2B7B2B7A00C0D1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC852A2B7B2B7A00C0D1E5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB46DDF02BD5A99700DA6BD6 /* PathConfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PathConfiguration.json; sourceTree = "<group>"; };
 		ABCC85232B7B2B7A00C0D1E5 /* magellan-rewards-ios-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magellan-rewards-ios-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCC85262B7B2B7A00C0D1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCC85282B7B2B7A00C0D1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB46DDEF2BD5A8F400DA6BD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB46DDF02BD5A99700DA6BD6 /* PathConfiguration.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ABCC851A2B7B2B7A00C0D1E5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		ABCC85252B7B2B7A00C0D1E5 /* magellan-rewards-ios-v2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB46DDEF2BD5A8F400DA6BD6 /* Resources */,
 				ABCC85262B7B2B7A00C0D1E5 /* AppDelegate.swift */,
 				ABCC85282B7B2B7A00C0D1E5 /* SceneDelegate.swift */,
 				ABCC852A2B7B2B7A00C0D1E5 /* ViewController.swift */,
@@ -131,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCC85332B7B2B7B00C0D1E5 /* LaunchScreen.storyboard in Resources */,
+				AB46DDF12BD5A99700DA6BD6 /* PathConfiguration.json in Resources */,
 				ABCC85302B7B2B7B00C0D1E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
