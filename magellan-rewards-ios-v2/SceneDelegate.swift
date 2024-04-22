@@ -22,8 +22,6 @@
         private func visit(url: URL, action: VisitAction = .advance, properties: PathProperties = [:]) {
             let viewController = VisitableViewController(url: url)
             
-            print(properties, url, action)
-            
             navigationController.dismiss(animated: true)
             
             if properties["presentation"] as? String == "modal" {
