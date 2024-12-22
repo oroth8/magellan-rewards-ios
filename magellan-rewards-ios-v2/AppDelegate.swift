@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  magellan-rewards-ios-v2
 //
-//  Created by Owen Roth on 2/12/24.
+//  Updated by Owen Roth on 12/22/24.
 //
 
 import UIKit
